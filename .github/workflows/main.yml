@@ -5,7 +5,7 @@ name: Fetch Static Secrets example
 
 jobs:
   fetch_secrets:
-    runs-on: C2056320265
+    runs-on: self-hosted
     permissions:
       id-token: write
       contents: read
